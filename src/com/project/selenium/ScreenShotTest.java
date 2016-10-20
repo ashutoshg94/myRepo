@@ -29,7 +29,8 @@ public class ScreenShotTest {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		//driver.get("https://www.google.co.in/");
-		
+		//hell git repo
+		//hi
 		driver.findElement(By.xpath("//div[@id='sb_ifc0']")).sendKeys("selenium");
 		driver.findElement(By.xpath("//button[@name='btnG']")).click();
 		Thread.sleep(500);
