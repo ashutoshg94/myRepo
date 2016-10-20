@@ -28,7 +28,7 @@ public class ScreenShotTest {
 		WebDriver driver=new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		//driver.get("https://www.google.co.in/");
+		driver.get("https://www.google.co.in/");
 		//hell git repo
 		//hi
 		driver.findElement(By.xpath("//div[@id='sb_ifc0']")).sendKeys("selenium");
