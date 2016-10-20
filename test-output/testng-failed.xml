@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [mySuite]" parallel="methods">
+  <test name="myTest(failed)" parallel="methods">
+    <classes>
+      <class name="com.project.selenium.IrctcAssertionTest">
+        <methods>
+          <include name="testScreenShotIrctc"/>
+          <include name="testScreenShotIrctc2"/>
+        </methods>
+      </class> <!-- com.project.selenium.IrctcAssertionTest -->
+    </classes>
+  </test> <!-- myTest(failed) -->
+</suite> <!-- Failed suite [mySuite] -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="mySuite" duration-ms="77161" started-at="2016-10-19T07:34:16Z" finished-at="2016-10-19T07:35:34Z">
+    <groups>
+    </groups>
+    <test name="myTest" duration-ms="77161" started-at="2016-10-19T07:34:16Z" finished-at="2016-10-19T07:35:34Z">
+      <class name="com.project.selenium.IrctcAssertionTest">
+        <test-method status="PASS" signature="testScreenShotIrctc2()[pri:0, instance:com.project.selenium.IrctcAssertionTest@7f9a81e8]" name="testScreenShotIrctc2" duration-ms="75594" started-at="2016-10-19T13:04:16Z" finished-at="2016-10-19T13:05:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScreenShotIrctc2 -->
+        <test-method status="PASS" signature="testScreenShotIrctc()[pri:0, instance:com.project.selenium.IrctcAssertionTest@7f9a81e8]" name="testScreenShotIrctc" duration-ms="77137" started-at="2016-10-19T13:04:16Z" finished-at="2016-10-19T13:05:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScreenShotIrctc -->
+      </class> <!-- com.project.selenium.IrctcAssertionTest -->
+    </test> <!-- myTest -->
+  </suite> <!-- mySuite -->
+</testng-results>

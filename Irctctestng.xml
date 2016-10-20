@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="mySuite" parallel="methods">
+ <tests>
+  <test name="myTest">
+    <classes>
+      <class name="com.project.selenium.IrctcAssertionTest"></class>
+      
+    </classes>
+  </test> <!-- Test -->
+  </tests>
+</suite> 
